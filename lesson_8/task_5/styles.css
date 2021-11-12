@@ -4,7 +4,7 @@
 
 .rectangle {
   border: 2px solid black;
-  padding: 48px 50px;
+  padding: 50px;
 }
 
 .first {
@@ -18,9 +18,7 @@
 
 .third {
   background: green;
-  padding: 50px;
 }
 .fourth {
   background: pink;
-  padding: 50px;
 }
