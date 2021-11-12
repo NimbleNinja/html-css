@@ -4,7 +4,7 @@
 
 .rectangle {
   border: 2px solid black;
-  padding: 48px;
+  padding: 48px 50px;
 }
 
 .first {
