@@ -4,14 +4,12 @@
 
 .header {
   background: darkturquoise;
-  height: 40px;
   width: 100%;
   position: fixed;
   z-index: 1;
 }
 
 .nav-list {
-  height: 40px;
   margin: 0;
 }
 
@@ -23,9 +21,13 @@
 li {
   list-style: none;
   display: inline-block;
-  margin-left: 16px;
+  margin-left: 14px;
   color: white;
   line-height: 40px;
+}
+
+li:first-child {
+  margin-left: 16px;
 }
 
 .head {
