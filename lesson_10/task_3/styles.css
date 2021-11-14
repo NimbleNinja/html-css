@@ -4,12 +4,8 @@
   padding: 0;
 }
 
-body,
-html {
-  height: 100%;
-}
-
-body {
+.page {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -30,10 +26,6 @@ body {
 }
 .navigation > li {
   margin-left: 16px;
-}
-
-.footer {
-  background: green;
 }
 
 .main {
@@ -70,9 +62,9 @@ li {
 }
 
 .footer {
+  background: green;
   display: flex;
 }
-
 .footer__title {
   margin: auto;
 }
