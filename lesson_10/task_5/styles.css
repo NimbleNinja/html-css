@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+}
+
+.header__title {
+  margin: 0px auto;
+}
+
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  background: bisque;
+  margin: 8px;
+  padding: 16px;
+  flex: 1 0 300px;
+}
