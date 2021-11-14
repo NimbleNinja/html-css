@@ -68,3 +68,11 @@ body {
 li {
   list-style: none;
 }
+
+.footer {
+  display: flex;
+}
+
+.footer__title {
+  margin: auto;
+}
