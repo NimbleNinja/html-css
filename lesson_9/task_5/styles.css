@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .header {
@@ -10,7 +11,7 @@
 }
 
 .nav-list {
-  margin: 0;
+  font-size: 0;
 }
 
 .content {
@@ -19,15 +20,11 @@
 }
 
 li {
-  list-style: none;
+  font-size: 16px;
   display: inline-block;
-  margin-left: 14px;
+  margin-left: 16px;
   color: white;
   line-height: 40px;
-}
-
-li:first-child {
-  margin-left: 16px;
 }
 
 .head {
