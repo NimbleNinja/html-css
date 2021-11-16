@@ -14,6 +14,7 @@ html {
 h1 {
   text-align: center;
   word-spacing: 20px;
+  text-transform: uppercase;
 }
 
 p {
@@ -33,5 +34,5 @@ a {
 }
 
 .translate {
-  background: grey;
+  color: grey;
 }
