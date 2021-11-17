@@ -4,7 +4,6 @@
 
 .gallery {
   display: flex;
-  margin-left: 16px;
 }
 
 .image {
@@ -15,4 +14,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.image:first-child {
+  margin-left: 0;
 }
