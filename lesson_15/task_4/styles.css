@@ -10,6 +10,7 @@
   display: block;
   margin: 0px auto;
   max-width: 100%;
+  height: auto;
 }
 
 .image-button {
