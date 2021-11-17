@@ -26,9 +26,9 @@
   text-transform: uppercase;
   font-weight: 700;
   cursor: pointer;
-  filter: opacity(50%);
+  opacity: 0.5;
 }
 
 .image-button:hover {
-  filter: opacity(100%);
+  opacity: 1;
 }
