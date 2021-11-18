@@ -23,16 +23,13 @@ tfoot {
 td,
 th {
   border-collapse: collapse;
-  text-align: right;
   border: 1px solid black;
 }
 
 td,
 th {
+  text-align: right;
   padding: 4px;
-}
-
-tr {
   line-height: 40px;
 }
 
@@ -46,5 +43,5 @@ tbody > tr:hover {
 }
 
 .table-box {
-  overflow: auto;
+  overflow-x: auto;
 }
