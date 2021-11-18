@@ -22,11 +22,17 @@ tfoot {
 .table,
 td,
 th {
-  line-height: 40px;
   border-collapse: collapse;
   text-align: right;
-  padding: 4px;
   border: 1px solid black;
+}
+
+td {
+  padding: 4px;
+}
+
+tr {
+  height: 40px;
 }
 
 tbody > tr:nth-child(odd) {
