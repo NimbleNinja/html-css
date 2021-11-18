@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.mix-form {
+  margin: 32px;
+}
+
+.form-control {
+  margin-bottom: 8px;
+}
