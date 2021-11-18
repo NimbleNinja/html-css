@@ -33,7 +33,7 @@ th {
 }
 
 tr {
-  height: 40px;
+  line-height: 40px;
 }
 
 tbody > tr:nth-child(odd) {
