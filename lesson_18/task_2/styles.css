@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.custom-btn {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background: coral;
+  color: white;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  color: darkcyan;
+}
+
+.custom-btn:hover > .bird-icon {
+  fill: darkcyan;
+}
+
+.bird-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  fill: white;
+}
