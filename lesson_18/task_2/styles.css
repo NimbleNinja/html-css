@@ -15,6 +15,7 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .custom-btn:hover {
@@ -22,12 +23,12 @@
 }
 
 .custom-btn:hover > .bird-icon {
-  fill: darkcyan;
+  fill: green;
 }
 
 .bird-icon {
+  vertical-align: middle;
   width: 32px;
   height: 32px;
-  vertical-align: middle;
   fill: white;
 }
