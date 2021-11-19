@@ -15,7 +15,7 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
-  vertical-align: middle;
+  line-height: 50px;
 }
 
 .custom-btn:hover {
