@@ -23,18 +23,18 @@
   transition-duration: 2s;
 }
 
-.linear:hover {
+.rect.linear:hover {
   transition-timing-function: linear;
 }
-.ease:hover {
+.rect.ease:hover {
   transition-timing-function: ease;
 }
-.ease-in:hover {
+.rect.ease-in:hover {
   transition-timing-function: ease-in;
 }
-.ease-out:hover {
+.rect.ease-out:hover {
   transition-timing-function: ease-out;
 }
-.ease-in-out:hover {
+.rect.ease-in-out:hover {
   transition-timing-function: ease-in-out;
 }
