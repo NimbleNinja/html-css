@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -19,8 +21,7 @@
 .rect:hover {
   opacity: 1;
   width: 100%;
-  transition-property: opacity, width;
-  transition-duration: 2s;
+  transition: width 2s, opacity 0.5s;
 }
 
 .rect.linear:hover {
