@@ -14,12 +14,12 @@
   width: 100px;
   height: 100px;
   line-height: 100px;
+  transition: all 2s;
 }
 
 .rect:hover {
   opacity: 1;
   width: 100%;
-  transition: all 2s;
 }
 
 .linear {
