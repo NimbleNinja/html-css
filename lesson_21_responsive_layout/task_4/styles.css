@@ -23,7 +23,6 @@ body {
 .main {
   flex: 1 1 auto;
   display: flex;
-  font-size: 1.25em;
 }
 
 .navigation,
@@ -50,7 +49,6 @@ body {
 
 .nav-list-link {
   display: block;
-  max-width: 100%;
   padding: 0 0.5em;
   color: white;
   text-decoration: none;
@@ -61,6 +59,7 @@ body {
 
 .section {
   width: 60%;
+  font-size: 1.25em;
 }
 
 .section__header {
@@ -76,7 +75,7 @@ body {
   color: #8b0000;
   background: #e5e5e5;
   font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1.125em;
 }
 
 .news {
