@@ -55,6 +55,6 @@ span {
   .products-list,
   .news,
   .navigation {
-    flex: 1 1 auto;
+    flex: 1 1;
   }
 }
