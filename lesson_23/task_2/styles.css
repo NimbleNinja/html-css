@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  background: #ff7f50;
+}
+@media screen and (min-width: 600px) {
+  body .square {
+    background: #8a2be2;
+  }
+}
+@media screen and (min-width: 900px) {
+  body .square {
+    background: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body .square {
+    background: #c47;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,31 @@
+@import 'breackpoints';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .square {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background: #ff7f50;
+
+    @include small-md {
+      background: #8a2be2;
+    }
+
+    @include medium-md {
+      background: #a61;
+    }
+
+    @include large-md {
+      background: #c47;
+    }
+  }
+}
