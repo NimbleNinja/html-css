@@ -1,0 +1,27 @@
+$ss: 600px;
+$ms: 900px;
+$ls: 1200px;
+
+@mixin small-md {
+  @media screen and (min-width: $ss) {
+    @content;
+  }
+}
+
+@mixin medium-md {
+  @media screen and (min-width: $ms) {
+    @content;
+  }
+}
+
+@mixin large-md {
+  @media screen and (min-width: $ls) {
+    @content;
+  }
+}
+
+@mixin portrait-md {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
