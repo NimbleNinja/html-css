@@ -1,0 +1,12 @@
+$font: Verdana, Geneva, sans-serif;
+
+$padding-unit: 8px;
+
+$medium-size: 600px;
+$large-size: 900px;
+
+@mixin size-md($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
