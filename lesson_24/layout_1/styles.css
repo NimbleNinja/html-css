@@ -30,7 +30,6 @@
 .header__menu-item {
   font-size: 18px;
   line-height: 25px;
-  color: #2b292d;
   margin-right: 50px;
   text-decoration: none;
 }
@@ -58,7 +57,6 @@
   margin-left: 15px;
 }
 .logo__title {
-  color: #2b292d;
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
@@ -66,7 +64,7 @@
 .logo__text {
   font-size: 18px;
   line-height: 25px;
-  color: rgba(43, 41, 45, 0.6);
+  opacity: 0.6;
 }
 
 .headline {
@@ -79,14 +77,10 @@
   font-size: 80px;
   line-height: 78px;
   letter-spacing: -0.5px;
-  color: #2b292d;
 }
 .headline__text {
   max-width: 456px;
   margin-bottom: 58px;
-  font-size: 24px;
-  line-height: 34px;
-  color: #2b292d;
 }
 .headline__buttons {
   display: flex;
@@ -125,6 +119,64 @@
   justify-content: space-between;
 }
 
+.features {
+  background: url("img/features/left_screen.png") top 258px left no-repeat, url("img/features/right_screen.png") top 5px right no-repeat;
+}
+.features__body {
+  width: 463px;
+  padding-bottom: 103px;
+}
+.features__sub-title {
+  color: #009b4d;
+  margin-bottom: 24px;
+}
+.features__title {
+  margin-bottom: 30px;
+}
+.features__description {
+  margin-bottom: 42px;
+}
+.list__item {
+  position: relative;
+  padding-bottom: 22px;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #2b292d;
+}
+.list__item:hover {
+  border-bottom: 3px solid #3142c6;
+  color: #3142c6;
+  cursor: url(img/pointer.png) 8 4, pointer;
+}
+.list__item:hover > .list__item-text {
+  height: 56px;
+  color: #2b292d;
+  transition: height 0.3s ease-in-out;
+}
+.list__item:hover > .list__item-icon {
+  fill: #3142c6;
+}
+.list__item-icon {
+  fill: #2b292d;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.list__item-title {
+  padding-left: 38px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+.list__item-text {
+  height: 0px;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 26px;
+  transition: height 0.3s ease-in-out;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -133,12 +185,39 @@
 
 html {
   font-family: "Work Sans", sans-serif;
+  color: #2b292d;
 }
 
 .container {
   max-width: 1160px;
   padding: 0px 10px;
   margin: 0px auto;
+}
+
+.h2-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #2b292d;
+}
+
+.h3-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.description-text {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+a {
+  color: #2b292d;
+}
+a:hover {
+  cursor: url(img/pointer.png) 8 4, pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

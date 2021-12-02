@@ -3,6 +3,7 @@
 @import 'header';
 @import 'about';
 @import 'customers';
+@import 'features';
 
 * {
   box-sizing: border-box;
@@ -12,10 +13,38 @@
 
 html {
   font-family: $main-font;
+  color: $main-text-color;
 }
 
 .container {
   max-width: 1160px;
   padding: 0px 10px;
   margin: 0px auto;
+}
+
+.h2-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #2b292d;
+}
+
+.h3-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.description-text {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+a {
+  color: $main-text-color;
+
+  &:hover {
+    cursor: url(img/pointer.png) 8 4, pointer;
+  }
 }
