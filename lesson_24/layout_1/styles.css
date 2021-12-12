@@ -206,6 +206,107 @@
   }
 }
 
+.audience {
+  background: rgba(0, 161, 198, 0.07);
+  padding: 50px 0;
+}
+@media screen and (min-width: 1400px) {
+  .audience {
+    padding: 108px 0px 110px 0px;
+  }
+}
+.audience__sub-title {
+  text-align: center;
+  margin-bottom: 17px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__sub-title {
+    margin-bottom: 24px;
+  }
+}
+.audience__title {
+  text-align: center;
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    margin-bottom: 30px;
+  }
+}
+.audience__description {
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__description {
+    margin-bottom: 34px;
+  }
+}
+.audience__buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__buttons {
+    margin-bottom: 111px;
+  }
+}
+.audience__btn {
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .audience__btn {
+    width: auto;
+  }
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .categories {
+    justify-content: space-between;
+    padding: 0 4px;
+  }
+}
+.categories__item {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 0px 33px 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+.categories__item:hover {
+  background: #3141c5;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  cursor: url(img/pointer.png) 8 4, pointer;
+}
+.categories__item:hover .categories__name {
+  color: #fff;
+}
+@media screen and (min-width: 1400px) {
+  .categories__item {
+    width: 262px;
+  }
+}
+.categories__img {
+  margin-bottom: 22px;
+}
+.categories__name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+
 .about {
   background: #f4f5f7;
   padding: 77px 0;
@@ -314,10 +415,16 @@ html {
 
 .h2-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 40px;
+  line-height: 40px;
   letter-spacing: -0.5px;
   color: #2b292d;
+}
+@media screen and (min-width: 1400px) {
+  .h2-title {
+    font-size: 56px;
+    line-height: 56px;
+  }
 }
 
 .h3-title {
