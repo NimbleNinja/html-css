@@ -1,0 +1,205 @@
+.main-page {
+  background: #f3c6bd;
+  padding-bottom: calc(56.5% + 69px);
+  background: url(img/bg.png) left bottom 36px / 100% auto no-repeat, #f3c6bd;
+
+  &__header {
+    margin-bottom: 35px;
+  }
+
+  &__headline {
+  }
+
+  @include md($large-md) {
+    padding: 39px 0px 126px 0px;
+    background: url(img/bg.png) left calc(50% + 276px) top 185px / 796px auto
+        no-repeat,
+      #f3c6bd;
+
+    &__header {
+      max-width: 1140px;
+      margin: 0px auto 76px auto;
+    }
+  }
+}
+
+.header {
+  background: #fff;
+  display: flex;
+
+  &__logo {
+    padding: 8px 0px 8px 15px;
+    margin-top: 2px;
+
+    @include md($large-md) {
+      padding: 0;
+    }
+  }
+
+  &__menu {
+    display: none;
+    margin: 7px 75px 0px auto;
+
+    @include md($large-md) {
+      display: block;
+    }
+  }
+
+  &__burger {
+    margin-left: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+
+    @include md($large-md) {
+      display: none;
+    }
+  }
+
+  &__btn {
+    display: none;
+    align-self: start;
+
+    @include md($large-md) {
+      display: block;
+    }
+  }
+
+  @include md($large-md) {
+    background: none;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 8px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #ffffff;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+
+    & img {
+      width: 26.4px;
+      height: 32.36px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &__text {
+    display: none;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+
+  @include md($large-md) {
+    &__img {
+      width: 60px;
+      height: 60px;
+
+      & img {
+        width: 33px;
+        height: 40px;
+      }
+    }
+
+    &__text {
+      display: block;
+    }
+  }
+}
+
+.menu {
+  align-self: start;
+
+  &__item {
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 50px;
+
+    &_selected {
+      font-weight: 700;
+    }
+
+    &:last-child {
+      position: relative;
+      margin-right: 0px;
+      padding-right: 19px;
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: calc(50% - 2.5px);
+        width: 8px;
+        height: 5px;
+        background: url(img/arrow.svg);
+      }
+    }
+  }
+}
+
+.headline {
+  &__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
+    margin: 0px 0px 24px 0px;
+  }
+
+  &__description {
+    margin: 0px 0px 30px 0px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__btn {
+    width: 100%;
+  }
+
+  @include md($large-md) {
+    &__title {
+      width: 754px;
+      font-size: 80px;
+      line-height: 78px;
+      letter-spacing: -0.5px;
+      margin-bottom: 34px;
+    }
+
+    &__description {
+      width: 456px;
+      margin-bottom: 58px;
+    }
+
+    &__btn {
+      width: auto;
+    }
+  }
+}
