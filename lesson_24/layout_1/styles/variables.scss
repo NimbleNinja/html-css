@@ -1,3 +1,12 @@
 $main-font: 'Work Sans', sans-serif;
 
 $main-text-color: #2b292d;
+
+//media points
+$large-md: 1400px;
+
+@mixin md($min-width) {
+  @media screen and (min-width: $min-width) {
+    @content;
+  }
+}

@@ -1,6 +1,6 @@
 @import 'variables';
 @import 'components';
-@import 'header';
+@import 'main-page';
 @import 'about';
 @import 'customers';
 @import 'features';
@@ -17,9 +17,13 @@ html {
 }
 
 .container {
-  max-width: 1160px;
-  padding: 0px 10px;
+  max-width: 1148px;
   margin: 0px auto;
+  padding: 0 15px;
+
+  @include md($large-md) {
+    padding: 0;
+  }
 }
 
 .h2-title {
@@ -27,7 +31,7 @@ html {
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.5px;
-  color: #2b292d;
+  color: $main-text-color;
 }
 
 .h3-title {
@@ -43,6 +47,7 @@ html {
 
 a {
   color: $main-text-color;
+  text-decoration: none;
 
   &:hover {
     cursor: url(img/pointer.png) 8 4, pointer;
